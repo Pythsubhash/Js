@@ -45,8 +45,8 @@ var arrmap = [1,2,3]
 var ar = arrmap.map(x=>{
     return y = ""+ x +"";
 })
-//.filter(y=>{
-//    return y>4;
-//})
+.filter(y=>{
+    return y>4;
+})
 console.log(ar.toString())
 
